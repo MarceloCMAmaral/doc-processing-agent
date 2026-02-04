@@ -1,0 +1,1195 @@
+2026-02-04 21:25:10,866 - doc_pipeline - INFO - --- Starting Document Processing Pipeline (Parallel) ---
+2026-02-04 21:25:10,870 - doc_pipeline - INFO - Step 1: Ingesting documents...
+2026-02-04 21:25:17,949 - doc_pipeline - INFO - Found 50 documents.
+2026-02-04 21:25:17,951 - doc_pipeline - INFO - Step 2: Processing documents in parallel...
+2026-02-04 21:25:17,953 - doc_pipeline - INFO - Processing: 001_pjpo.pdf
+2026-02-04 21:25:17,966 - doc_pipeline - INFO - Processing: 001_rljd.pdf
+2026-02-04 21:25:17,995 - doc_pipeline - INFO - Processing: 001_z7fp.pdf
+2026-02-04 21:25:18,010 - doc_pipeline - INFO - Processing: 002_6qvg.pdf
+2026-02-04 21:25:18,039 - doc_pipeline - INFO - Processing: 002_er4p.pdf
+2026-02-04 21:25:31,018 - doc_pipeline - INFO - Classified as maintenance_report (Conf: 0.98)
+2026-02-04 21:25:31,111 - doc_pipeline - INFO - Classified as contract (Conf: 0.99)
+2026-02-04 21:25:31,280 - doc_pipeline - INFO - Classified as invoice (Conf: 0.99)
+2026-02-04 21:25:31,818 - doc_pipeline - INFO - Classified as maintenance_report (Conf: 0.99)
+2026-02-04 21:25:31,838 - doc_pipeline - INFO - Classified as contract (Conf: 0.99)
+2026-02-04 21:26:00,485 - doc_pipeline - INFO - Extraction successful using ContractExtractor
+2026-02-04 21:26:00,489 - doc_pipeline - INFO - [SAVED] C:\Users\marce\Downloads\Agente de Processamento de Documentos\data\processed\001_z7fp.json
+2026-02-04 21:26:00,491 - doc_pipeline - INFO - Processing: 002_wyfi.pdf
+2026-02-04 21:26:02,983 - doc_pipeline - INFO - Extraction successful using ContractExtractor
+2026-02-04 21:26:02,993 - doc_pipeline - INFO - [SAVED] C:\Users\marce\Downloads\Agente de Processamento de Documentos\data\processed\002_er4p.json
+2026-02-04 21:26:02,998 - doc_pipeline - INFO - Processing: 003_k11j.pdf
+2026-02-04 21:26:07,123 - doc_pipeline - INFO - Extraction successful using InvoiceExtractor
+2026-02-04 21:26:07,128 - doc_pipeline - INFO - [SAVED] C:\Users\marce\Downloads\Agente de Processamento de Documentos\data\processed\001_rljd.json
+2026-02-04 21:26:07,129 - doc_pipeline - INFO - Processing: 003_pthm.pdf
+2026-02-04 21:26:35,061 - doc_pipeline - INFO - Classified as contract (Conf: 0.99)
+2026-02-04 21:26:39,276 - doc_pipeline - INFO - Extraction successful using ReportExtractor
+2026-02-04 21:26:39,278 - doc_pipeline - INFO - [SAVED] C:\Users\marce\Downloads\Agente de Processamento de Documentos\data\processed\002_6qvg.json
+2026-02-04 21:26:39,279 - doc_pipeline - INFO - Processing: 003_w9rf.pdf
+2026-02-04 21:26:39,570 - doc_pipeline - INFO - Extraction successful using ReportExtractor
+2026-02-04 21:26:39,577 - doc_pipeline - INFO - [SAVED] C:\Users\marce\Downloads\Agente de Processamento de Documentos\data\processed\001_pjpo.json
+2026-02-04 21:26:39,580 - doc_pipeline - INFO - Processing: 004_19u4.pdf
+2026-02-04 21:26:43,678 - doc_pipeline - INFO - Classified as invoice (Conf: 0.99)
+2026-02-04 21:26:47,376 - doc_pipeline - INFO - Classified as invoice (Conf: 0.99)
+2026-02-04 21:26:48,492 - doc_pipeline - INFO - Classified as invoice (Conf: 0.99)
+2026-02-04 21:26:48,862 - doc_pipeline - INFO - Classified as maintenance_report (Conf: 0.98)
+2026-02-04 21:26:56,713 - doc_pipeline - INFO - Extraction successful using ContractExtractor
+2026-02-04 21:26:56,719 - doc_pipeline - INFO - [SAVED] C:\Users\marce\Downloads\Agente de Processamento de Documentos\data\processed\003_pthm.json
+2026-02-04 21:26:56,803 - doc_pipeline - INFO - Processing: 004_6hhe.pdf
+2026-02-04 21:27:33,282 - doc_pipeline - INFO - Classified as maintenance_report (Conf: 0.99)
+2026-02-04 21:27:33,812 - doc_pipeline - INFO - Extraction successful using ReportExtractor
+2026-02-04 21:27:33,831 - doc_pipeline - INFO - [SAVED] C:\Users\marce\Downloads\Agente de Processamento de Documentos\data\processed\003_w9rf.json
+2026-02-04 21:27:33,834 - doc_pipeline - INFO - Processing: 004_9i69.pdf
+2026-02-04 21:27:35,032 - doc_pipeline - INFO - Extraction successful using InvoiceExtractor
+2026-02-04 21:27:35,048 - doc_pipeline - INFO - [SAVED] C:\Users\marce\Downloads\Agente de Processamento de Documentos\data\processed\003_k11j.json
+2026-02-04 21:27:35,104 - doc_pipeline - INFO - Processing: 005_3spn.pdf
+2026-02-04 21:27:36,399 - doc_pipeline - INFO - Extraction successful using InvoiceExtractor
+2026-02-04 21:27:36,453 - doc_pipeline - INFO - [SAVED] C:\Users\marce\Downloads\Agente de Processamento de Documentos\data\processed\004_19u4.json
+2026-02-04 21:27:36,614 - doc_pipeline - INFO - Processing: 005_6zwp.pdf
+2026-02-04 21:27:45,168 - doc_pipeline - INFO - Extraction successful using InvoiceExtractor
+2026-02-04 21:27:45,170 - doc_pipeline - INFO - [SAVED] C:\Users\marce\Downloads\Agente de Processamento de Documentos\data\processed\002_wyfi.json
+2026-02-04 21:27:45,203 - doc_pipeline - INFO - Processing: 005_91eh.pdf
+2026-02-04 21:27:47,095 - doc_pipeline - INFO - Classified as maintenance_report (Conf: 0.98)
+2026-02-04 21:27:47,554 - doc_pipeline - INFO - Classified as contract (Conf: 0.99)
+2026-02-04 21:29:30,723 - doc_pipeline - INFO - Extraction successful using ReportExtractor
+2026-02-04 21:29:30,727 - doc_pipeline - INFO - [SAVED] C:\Users\marce\Downloads\Agente de Processamento de Documentos\data\processed\004_6hhe.json
+2026-02-04 21:29:30,728 - doc_pipeline - INFO - Processing: 006_b7qv.pdf
+2026-02-04 21:29:47,897 - doc_pipeline - ERROR - Classification failed after retries: RetryError[<Future at 0x19b81886f50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:29:47,897 - doc_pipeline - ERROR - Failed to process 005_6zwp.pdf: RetryError[<Future at 0x19b81886f50 state=finished raised ChatGoogleGenerativeAIError>]
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3047, in _generate
+    response: GenerateContentResponse = self.client.models.generate_content(
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        **request,
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 5227, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 4009, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1386, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1220, in _request
+    return retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1199, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 11.939130385s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '11s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 77, in invoke_with_retry
+    return chain.invoke(msgs)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 3149, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 5557, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 2535, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 402, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1121, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 931, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1233, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3051, in _generate
+    _handle_client_error(e, request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 145, in _handle_client_error
+    raise ChatGoogleGenerativeAIError(msg) from e
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 11.939130385s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '11s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\pipeline\orchestrator.py", line 35, in process_single_document
+    classification = classify_document(content_data)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 85, in classify_document
+    raise e
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 80, in classify_document
+    result = invoke_with_retry(messages)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x19b81886f50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:29:48,484 - doc_pipeline - INFO - Processing: 006_nqsa.pdf
+2026-02-04 21:30:17,157 - doc_pipeline - ERROR - Classification failed after retries: RetryError[<Future at 0x19b81a37d50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:30:17,157 - doc_pipeline - ERROR - Failed to process 005_91eh.pdf: RetryError[<Future at 0x19b81a37d50 state=finished raised ChatGoogleGenerativeAIError>]
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3047, in _generate
+    response: GenerateContentResponse = self.client.models.generate_content(
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        **request,
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 5227, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 4009, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1386, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1220, in _request
+    return retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1199, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 42.634646716s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 77, in invoke_with_retry
+    return chain.invoke(msgs)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 3149, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 5557, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 2535, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 402, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1121, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 931, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1233, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3051, in _generate
+    _handle_client_error(e, request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 145, in _handle_client_error
+    raise ChatGoogleGenerativeAIError(msg) from e
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 42.634646716s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\pipeline\orchestrator.py", line 35, in process_single_document
+    classification = classify_document(content_data)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 85, in classify_document
+    raise e
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 80, in classify_document
+    result = invoke_with_retry(messages)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x19b81a37d50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:30:17,170 - doc_pipeline - INFO - Processing: 006_plga.pdf
+2026-02-04 21:30:21,939 - doc_pipeline - ERROR - Extraction failed using ReportExtractor after retries: RetryError[<Future at 0x19b81a1e8d0 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:30:21,940 - doc_pipeline - ERROR - Failed to process 005_3spn.pdf: RetryError[<Future at 0x19b81a1e8d0 state=finished raised ChatGoogleGenerativeAIError>]
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3047, in _generate
+    response: GenerateContentResponse = self.client.models.generate_content(
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        **request,
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 5227, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 4009, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1386, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1220, in _request
+    return retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1199, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 37.836933474s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\extraction\base_extractor.py", line 49, in invoke_with_retry
+    return structured_llm.invoke(msgs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 3149, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 5557, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 2535, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 402, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1121, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 931, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1233, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3051, in _generate
+    _handle_client_error(e, request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 145, in _handle_client_error
+    raise ChatGoogleGenerativeAIError(msg) from e
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 37.836933474s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\pipeline\orchestrator.py", line 63, in process_single_document
+    data = extract_data(content_data, doc_type)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\extraction\__init__.py", line 21, in extract_data
+    return extractor.extract(content_data)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\extraction\base_extractor.py", line 57, in extract
+    raise e
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\extraction\base_extractor.py", line 52, in extract
+    result = invoke_with_retry([message])
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x19b81a1e8d0 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:30:21,958 - doc_pipeline - INFO - Processing: 007_7mav.pdf
+2026-02-04 21:30:22,045 - doc_pipeline - ERROR - Extraction failed using ContractExtractor after retries: RetryError[<Future at 0x19b81a1ee50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:30:22,049 - doc_pipeline - ERROR - Failed to process 004_9i69.pdf: RetryError[<Future at 0x19b81a1ee50 state=finished raised ChatGoogleGenerativeAIError>]
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3047, in _generate
+    response: GenerateContentResponse = self.client.models.generate_content(
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        **request,
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 5227, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 4009, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1386, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1220, in _request
+    return retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1199, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 37.709104227s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\extraction\base_extractor.py", line 49, in invoke_with_retry
+    return structured_llm.invoke(msgs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 3149, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 5557, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 2535, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 402, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1121, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 931, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1233, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3051, in _generate
+    _handle_client_error(e, request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 145, in _handle_client_error
+    raise ChatGoogleGenerativeAIError(msg) from e
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 37.709104227s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\pipeline\orchestrator.py", line 63, in process_single_document
+    data = extract_data(content_data, doc_type)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\extraction\__init__.py", line 21, in extract_data
+    return extractor.extract(content_data)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\extraction\base_extractor.py", line 57, in extract
+    raise e
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\extraction\base_extractor.py", line 52, in extract
+    result = invoke_with_retry([message])
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x19b81a1ee50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:30:22,065 - doc_pipeline - INFO - Processing: 007_v81m.pdf
+2026-02-04 21:31:34,412 - doc_pipeline - ERROR - Classification failed after retries: RetryError[<Future at 0x19b81ad5a50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:31:34,414 - doc_pipeline - ERROR - Failed to process 006_b7qv.pdf: RetryError[<Future at 0x19b81ad5a50 state=finished raised ChatGoogleGenerativeAIError>]
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3047, in _generate
+    response: GenerateContentResponse = self.client.models.generate_content(
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        **request,
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 5227, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 4009, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1386, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1220, in _request
+    return retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1199, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 25.345647501s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 77, in invoke_with_retry
+    return chain.invoke(msgs)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 3149, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 5557, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 2535, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 402, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1121, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 931, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1233, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3051, in _generate
+    _handle_client_error(e, request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 145, in _handle_client_error
+    raise ChatGoogleGenerativeAIError(msg) from e
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 25.345647501s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\pipeline\orchestrator.py", line 35, in process_single_document
+    classification = classify_document(content_data)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 85, in classify_document
+    raise e
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 80, in classify_document
+    result = invoke_with_retry(messages)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x19b81ad5a50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:31:34,425 - doc_pipeline - INFO - Processing: 007_ywro.pdf
+2026-02-04 21:31:55,462 - doc_pipeline - ERROR - Classification failed after retries: RetryError[<Future at 0x19b81b08f50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:31:55,464 - doc_pipeline - ERROR - Failed to process 006_nqsa.pdf: RetryError[<Future at 0x19b81b08f50 state=finished raised ChatGoogleGenerativeAIError>]
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3047, in _generate
+    response: GenerateContentResponse = self.client.models.generate_content(
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        **request,
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 5227, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 4009, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1386, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1220, in _request
+    return retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1199, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 4.284420949s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 77, in invoke_with_retry
+    return chain.invoke(msgs)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 3149, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 5557, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 2535, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 402, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1121, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 931, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1233, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3051, in _generate
+    _handle_client_error(e, request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 145, in _handle_client_error
+    raise ChatGoogleGenerativeAIError(msg) from e
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 4.284420949s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\pipeline\orchestrator.py", line 35, in process_single_document
+    classification = classify_document(content_data)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 85, in classify_document
+    raise e
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 80, in classify_document
+    result = invoke_with_retry(messages)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x19b81b08f50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:31:55,479 - doc_pipeline - INFO - Processing: 008_cu07.pdf
+2026-02-04 21:32:26,477 - doc_pipeline - ERROR - Classification failed after retries: RetryError[<Future at 0x19b81b289d0 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:32:26,477 - doc_pipeline - ERROR - Failed to process 006_plga.pdf: RetryError[<Future at 0x19b81b289d0 state=finished raised ChatGoogleGenerativeAIError>]
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3047, in _generate
+    response: GenerateContentResponse = self.client.models.generate_content(
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        **request,
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 5227, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 4009, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1386, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1220, in _request
+    return retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1199, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 33.265117023s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 77, in invoke_with_retry
+    return chain.invoke(msgs)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 3149, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 5557, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 2535, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 402, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1121, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 931, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1233, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3051, in _generate
+    _handle_client_error(e, request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 145, in _handle_client_error
+    raise ChatGoogleGenerativeAIError(msg) from e
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 33.265117023s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\pipeline\orchestrator.py", line 35, in process_single_document
+    classification = classify_document(content_data)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 85, in classify_document
+    raise e
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 80, in classify_document
+    result = invoke_with_retry(messages)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x19b81b289d0 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:32:26,490 - doc_pipeline - INFO - Processing: 008_hhvs.pdf
+2026-02-04 21:32:26,842 - doc_pipeline - ERROR - Classification failed after retries: RetryError[<Future at 0x19b81b2aad0 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:32:26,845 - doc_pipeline - ERROR - Failed to process 007_v81m.pdf: RetryError[<Future at 0x19b81b2aad0 state=finished raised ChatGoogleGenerativeAIError>]
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3047, in _generate
+    response: GenerateContentResponse = self.client.models.generate_content(
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        **request,
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 5227, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 4009, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1386, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1220, in _request
+    return retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1199, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 32.964531091s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 77, in invoke_with_retry
+    return chain.invoke(msgs)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 3149, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 5557, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 2535, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 402, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1121, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 931, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1233, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3051, in _generate
+    _handle_client_error(e, request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 145, in _handle_client_error
+    raise ChatGoogleGenerativeAIError(msg) from e
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 32.964531091s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\pipeline\orchestrator.py", line 35, in process_single_document
+    classification = classify_document(content_data)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 85, in classify_document
+    raise e
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 80, in classify_document
+    result = invoke_with_retry(messages)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x19b81b2aad0 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:32:26,896 - doc_pipeline - INFO - Processing: 008_sl0j.pdf
+2026-02-04 21:32:30,144 - doc_pipeline - ERROR - Classification failed after retries: RetryError[<Future at 0x19b81b2bb50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:32:30,153 - doc_pipeline - ERROR - Failed to process 007_7mav.pdf: RetryError[<Future at 0x19b81b2bb50 state=finished raised ChatGoogleGenerativeAIError>]
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3047, in _generate
+    response: GenerateContentResponse = self.client.models.generate_content(
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        **request,
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 5227, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 4009, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1386, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1220, in _request
+    return retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\_api_client.py", line 1199, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 29.679084176s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 77, in invoke_with_retry
+    return chain.invoke(msgs)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 3149, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\runnables\base.py", line 5557, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 2535, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 402, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1121, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 931, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_core\language_models\chat_models.py", line 1233, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 3051, in _generate
+    _handle_client_error(e, request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\langchain_google_genai\chat_models.py", line 145, in _handle_client_error
+    raise ChatGoogleGenerativeAIError(msg) from e
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 29.679084176s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29s'}]}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\pipeline\orchestrator.py", line 35, in process_single_document
+    classification = classify_document(content_data)
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 85, in classify_document
+    raise e
+  File "C:\Users\marce\Downloads\Agente de Processamento de Documentos\src\classification\classifier.py", line 80, in classify_document
+    result = invoke_with_retry(messages)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\marce\AppData\Roaming\Python\Python314\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x19b81b2bb50 state=finished raised ChatGoogleGenerativeAIError>]
+2026-02-04 21:32:30,207 - doc_pipeline - INFO - Processing: 009_jc20.pdf

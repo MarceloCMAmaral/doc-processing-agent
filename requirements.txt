@@ -1,0 +1,9 @@
+langchain
+langchain-google-genai
+langchain-community
+pydantic
+python-dotenv
+pypdf
+pandas
+openpyxl
+tenacity
