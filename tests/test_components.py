@@ -1,8 +1,8 @@
 import unittest
 from unittest.mock import MagicMock
-from src.ingestion import load_documents
-from src.classification import classify_document, ClassificationResult
-from src.extraction import extract_data
+from src.ingestion.pdf_processor import load_documents
+from src.classification.classifier import classify_document, ClassificationResult
+# from src.extractor import extract_data # Removed as it does not exist
 
 class TestComponents(unittest.TestCase):
 

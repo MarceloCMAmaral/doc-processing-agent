@@ -1,8 +1,8 @@
-from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage
 from pydantic import BaseModel, Field
 from langchain_google_genai import ChatGoogleGenerativeAI
 from src.config.settings import GOOGLE_API_KEY
+from src.config.prompts import CLASSIFICATION_SYSTEM_PROMPT
 from src.utils.logger import logger
 from tenacity import retry, stop_after_attempt, wait_exponential
 
@@ -30,19 +30,8 @@ def classify_document(content_data: dict):
 
     structured_llm = llm.with_structured_output(ClassificationResult)
 
-    system_text = """You are an expert document classifier. 
-    Analyze the provided document (text or image) and categorize it into one of the following types:
-    
-    1. **invoice**: Contains supplier info, CNPJ, list of items, values, total. (Nota Fiscal)
-    2. **contract**: Contains parties (contractor/hired), object, validity, monthly value. (Contrato de Prestação de Serviços)
-    3. **maintenance_report**: Contains date, technician, equipment, problem, solution. (Relatório de Manutenção)
-    4. **unknown**: If the document does NOT fit any of the above categories or is illegible/corrupted.
-    
-    Return the classification and a confidence score.
-    """
-
     messages = [
-        ("system", system_text),
+        ("system", CLASSIFICATION_SYSTEM_PROMPT),
     ]
 
     # Construct the User Message content
@@ -66,7 +55,8 @@ def classify_document(content_data: dict):
 
     # Create Human Message
     messages.append(HumanMessage(content=user_content))
-    
+
+    # Invoke directly (PromptTemplate is tricky with multimodal lists in current LangChain versions, using messages directly is safer)
     chain = structured_llm
     
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))

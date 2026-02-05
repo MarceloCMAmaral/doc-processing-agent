@@ -1,8 +1,12 @@
 from dotenv import load_dotenv
-from src.pipeline import run_pipeline
+from src.pipeline.orchestrator import DocumentPipeline
 
-# Load env before importing modules
+# Load env before anything else
 load_dotenv()
 
+def main():
+    pipeline = DocumentPipeline()
+    pipeline.run()
+
 if __name__ == "__main__":
-    run_pipeline()
+    main()

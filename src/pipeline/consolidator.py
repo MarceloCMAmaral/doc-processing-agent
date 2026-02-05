@@ -3,16 +3,6 @@ import json
 import pandas as pd
 from typing import List, Dict
 from src.config.settings import DATA_PROCESSED_DIR
-from src.utils.logger import logger
-
-def save_result(filename: str, result: Dict):
-    """Saves the extraction result to a JSON file."""
-    base_name = os.path.splitext(filename)[0]
-    output_path = os.path.join(DATA_PROCESSED_DIR, f"{base_name}.json")
-    
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(result, f, indent=4, ensure_ascii=False)
-    logger.info(f"[SAVED] {output_path}")
 
 def load_processed_data() -> List[Dict]:
     """Loads all JSON files from the processed directory."""
@@ -49,7 +39,7 @@ def load_processed_data() -> List[Dict]:
                     
                     data_list.append(flat_entry)
             except Exception as e:
-                logger.error(f"Error reading {filename} for consolidation: {e}")
+                print(f"Error reading {filename}: {e}")
                 
     return data_list
 
@@ -58,7 +48,7 @@ def consolidate_to_csv(output_path: str = "consolidated_results.csv"):
     data = load_processed_data()
     
     if not data:
-        logger.warning("No processed data found to consolidate.")
+        print("No processed data found to consolidate.")
         return
 
     df = pd.DataFrame(data)
@@ -74,4 +64,4 @@ def consolidate_to_csv(output_path: str = "consolidated_results.csv"):
     df = df[cols]
     
     df.to_csv(output_path, index=False, encoding="utf-8-sig") # utf-8-sig for Excel compatibility
-    logger.info(f"[SUCCESS] Consolidated {len(df)} records to {output_path}")
+    print(f"[SUCCESS] Consolidated {len(df)} records to {output_path}")
