@@ -1,9 +1,19 @@
 import os
 import glob
 import base64
+import hashlib
 from typing import List, Dict, Any
 from pypdf import PdfReader
 from src.config.settings import DATA_RAW_DIR
+
+def compute_file_hash(file_path: str) -> str:
+    """Computes MD5 hash of a file efficiently to detect duplicates."""
+    hasher = hashlib.md5()
+    with open(file_path, 'rb') as f:
+        # Read in chunks of 4K to avoid memory issues with large files
+        for chunk in iter(lambda: f.read(4096), b""):
+            hasher.update(chunk)
+    return hasher.hexdigest()
 
 def get_pdf_files(directory: str = DATA_RAW_DIR) -> List[str]:
     """Returns a list of absolute paths to PDF files in the specified directory."""
