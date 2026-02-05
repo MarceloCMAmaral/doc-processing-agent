@@ -3,3 +3,8 @@ __pycache__/
 .env
 .venv/
 data/processed/*
+data/raw/*
+logs/
+.DS_Store
+*.log
+
