@@ -1,8 +1,4 @@
-# 📋 Análise Completa do Desafio Técnico - Franq
-
-## Visão Geral
-
-O documento apresenta **dois desafios técnicos** para a posição de **Engenheiro(a) de IA (Pleno)**. O candidato deve **escolher apenas um** para implementar completamente, enquanto o outro será discutido durante a entrevista técnica (foco na arquitetura).
+# 📋 Análise Completa do Desafio Técnico
 
 ---
 
@@ -149,11 +145,3 @@ Criar aplicação/script que processe arquivos de `data/raw`:
 - Tratamento de erros em produção
 
 ---
-
-## 💡 Recomendação
-
-**Se você tem experiência com:**
-- Agentes LLM e LangChain → **Desafio 1**
-- Processamento de documentos e OCR → **Desafio 2**
-
-**Análise:** O **Desafio 1** pode ser mais interessante para demonstrar habilidades de engenharia de IA modernas (agentes, raciocínio, auto-correção), enquanto o **Desafio 2** é mais focado em arquitetura de sistemas e robustez operacional.
